@@ -1,0 +1,57 @@
+/*Name: Yogesh C
+    ID: w1666958
+  Date: 7/11/2022*/
+body {
+  outline: 2px solid #000000;
+  height: 100vh;
+  background-image:url(images/background.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center right;
+}
+header{
+  color:#bcb943;
+  text-align:center;
+}
+h1{
+  background-image:url(images/programming.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  line-height: 200%;
+  height:72px;
+  padding:0;
+  margin: 2px;
+}
+h2{
+  color:#68cac5CC;
+  text-align:center; 
+  margin:60px;
+  border-style: inset;
+  padding: 10px;
+  
+}
+h3{
+  color:#40bfbc;
+}
+p{
+  color:#4db378;
+}nav{
+  border: 2px dashed #4db378;
+  text-align:center;
+  padding:20px;
+  margin:5px;
+  font-size:20px;
+}
+#wrapper{
+  min-width:700px;
+  max-width:1024px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+ul{
+  color:#4db378;
+}
+
+a:link{text-decoration:none; color:#bcb943;}
+a:visited{color:#38c7c7;}
+a:hover{color:#4db378}
