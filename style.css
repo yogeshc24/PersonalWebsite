@@ -2,12 +2,12 @@
     ID: w1666958
   Date: 7/11/2022*/
 body {
-  outline: 2px solid #000000;
   height: 100vh;
-  background-image:url(images/background.jpg);
+  background-image:url(images/space.jpg);
   background-size:cover;
   background-repeat:no-repeat;
-  background-position:center right;
+  background-position:center ;
+  display:block;
 }
 header{
   color:#bcb943;
@@ -17,28 +17,47 @@ h1{
   background-image:url(images/programming.jpg);
   background-repeat:no-repeat;
   background-size:cover;
-  line-height: 200%;
+  line-height: 100%;
   height:72px;
   padding:0;
-  margin: 2px;
+  margin: 1px;
 }
 h2{
-  color:#68cac5CC;
+  color:#bcb943;
   text-align:center; 
-  margin:60px;
+  margin:20px;
   border-style: inset;
-  padding: 10px;
+  padding: 15px;
   
 }
+ul{
+  display:block;
+  color:#4db378;
+  margin:10px;
+  padding:1px;
+}
+li{
+  position:relative;
+  left:50px;
+  margin:2px;
+  padding:2px;
+}
 h3{
-  color:#40bfbc;
+  color:#ffffff;
+  margin:12px;
+  padding:2px;
 }
 p{
-  color:#4db378;
+  color:#ffffff;
+  margin:10px;
+  padding:15px;
+  position:relative;
+  left:20px;
+
 }nav{
-  border: 2px dashed #4db378;
+  border: 2px dashed #ffffff;
   text-align:center;
-  padding:20px;
+  padding:10px;
   margin:5px;
   font-size:20px;
 }
@@ -47,11 +66,28 @@ p{
   max-width:1024px;
   margin-left: auto;
   margin-right: auto;  
+  display:block;
 }
-ul{
-  color:#4db378;
+#scrolly{
+  position:relative;
+  left:23px;
+  height:120px;
+  width:975px;
+  border:1px solid #ccc;
+  font:16px/26px Georgia, Garamond, Serif;
+  overflow:auto;
 }
-
+.homepgpic{
+  width:150px;
+  height:100px;
+  float:left;
+  position:relative;
+  top:-20px;
+  left:20px;
+  margin-right:200px;
+  margin-bottom:2px;
+  padding:2px;
+}
 a:link{text-decoration:none; color:#bcb943;}
 a:visited{color:#38c7c7;}
 a:hover{color:#4db378}
