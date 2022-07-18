@@ -1,0 +1,101 @@
+* {box-sizing:border-box}
+body{
+  background-color:#3399CC;
+  background-image:linear-gradient(to bottom, #3399CC,#C2E0F0,#3399CC); 
+  color:#666666;
+  font-family: Verdana, Ariel, sans-serif;
+}
+header{
+  background-color:#000033;
+  color: #FFFFFF;
+  font-family: Georgia,"Times New Roman", serif;
+}
+h1{
+  background-image:url(sunset.jpg);
+  background-position:right;
+  background-repeat:no-repeat;
+  line-height: 200%;
+  height:72px;
+  padding-left:2em;
+  margin-bottom:0;
+}
+h2{
+  color: #3399CC;
+  font-family: Georgia,"Times New Roman", serif;
+}
+h3{
+  color:#000033;
+}
+dt{
+  color: #000033;
+  font-weight:bold;
+}
+nav{
+  font-weight:bold;
+  padding-top:0.5em;
+  padding-bottom:0.5em;
+  padding-right:0.5em;
+  padding-left:2em;
+  padding:0;
+  width:160px;
+  float:left;
+}
+a:link{ text-decoration:none; color:#FFFFFF}
+nav a:visited{color:#C2E0F0}
+nav a:hover{color: #CCCCCC}
+nav ul{
+  padding-left: 1em;
+  list-style-type: none;
+}
+
+footer{
+  background-color:#FFFFFF;
+  font-size:.70em;
+  font-style:italic;
+  text-align:center;
+  padding:1em;
+  margin-left:170px;
+}
+main{
+  background-color:#FFFFFF;
+  margin-left:170px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 2em;
+  padding-right: 2em;
+  display:block;
+}
+.resort{
+  color: #000033;
+  font-size: 1.2em;
+}
+ #wrapper { 
+  background-color: #000033;
+  min-width:700px;
+  max-width:1024px;
+  box-shadow:5px 5px 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+#homehero{
+  height:300px;
+  background-image:url(coast.jpg);
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  margin-left:170px;
+}
+#yurthero{
+  height: 300px;
+  background-image:url(yurt.jpg);
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  margin-left:170px;
+}
+#trailhero{
+  height: 300px;
+  background-image:url(trail.jpg);
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  margin-left:170px;
+}
