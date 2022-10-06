@@ -1,6 +1,4 @@
-/*Name: Yogesh C
-    ID: w1666958
-  Date: 7/11/2022*/
+
 body {
   height: 100vh;
   background-image:url(images/space.jpg);
@@ -12,6 +10,9 @@ body {
 header{
   color:#bcb943;
   text-align:center;
+}
+.text{
+  text-align:left;
 }
 h1{
   background-image:url(images/programming.jpg);
@@ -47,12 +48,24 @@ h3{
   margin:12px;
   padding:2px;
 }
+footer{
+  background-color:#000000;
+  color:#FFFFFF;
+  font-size:1em;
+  font-style:italic;
+  text-align:center;
+  padding:1em;
+  clear:right;
+  position:relative;
+  top:10px;
+}
 p{
+  background-color:#1f1f1f;
   color:#ffffff;
   margin:10px;
   padding:15px;
-  position:relative;
-  left:20px;
+ 
+  font-weight:bold;
 
 }nav{
   border: 2px dashed #ffffff;
@@ -77,17 +90,94 @@ p{
   font:16px/26px Georgia, Garamond, Serif;
   overflow:auto;
 }
+table{
+  background-color:#000000;
+  border:2px solid #8000ff;
+  width:90%;
+  border-collapse:collapse;
+  margin-left:50px;
+}
+td{
+  text-align:center;
+  color:#FFFFFF;
+}
+td, th{
+  padding:5px;
+  border:1px solid #cdc932;
+  color:#FFFFFF;
+}
 .homepgpic{
   width:150px;
   height:100px;
   float:left;
   position:relative;
-  top:-20px;
+  top:-10px;
   left:20px;
   margin-right:200px;
-  margin-bottom:2px;
+  margin-bottom:50px;
   padding:2px;
+}
+.finalbox{
+	display: grid;
+	border: 5px solid;
+  font-weight:bolder;
+  border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+}
+span{
+  opacity:0;
+  transition: all 0.4s ease;
+}
+span.fade{
+  opacity: 1;
 }
 a:link{text-decoration:none; color:#bcb943;}
 a:visited{color:#38c7c7;}
 a:hover{color:#4db378}
+
+
+.coolbox{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#0e1538;
+}
+.coolbox{
+  box-sizing:border-box;
+ font-family:'Poppins',sans-serif;
+}
+.coolbox{
+ position:relative;
+ width:300px;
+ height:400px;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ background:rgba(1,0,0,0.5);
+  margin-left:300px;
+  margin-top:50px;
+}
+.coolbox::before{
+  content:'';
+ position:absolute;
+ width:150px;
+  height:100%;
+  background:linear-gradient(#9216ab,#e2e824);
+ animation:animate 4s linear infinite;
+  
+}
+@keyframes animate{
+ 0%
+ {
+    transform:rotate(0deg);
+ }
+  100%
+ {
+    transform:rotate(360deg);
+ }
+}
+.coolbox p{
+  position:relative;
+  color:#fff;
+ font-size:1em;
+  z-index:10;
+}
